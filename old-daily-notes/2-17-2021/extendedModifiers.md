@@ -1,0 +1,32 @@
+# Extended Modifiers - non access
+- keyword modifiers/extended modifiers
+- used to modify the declaration of types and type members
+- abstract
+    - applied to classes and class members
+    - allows you to create classes and members that are incomplete and must be implemented in a derived class
+- const
+    - applied to fields!
+    - fields that cannot be modified!! never changing
+    - numbers, booleans, strings, null
+- readonly
+    - applies to fields, structs, and struct members
+    - you can't assigned after constructor exits
+    - const has to be initialized, readonly can be initialized later on inside the object constructor
+    - if a value depends on what gets called but should never change afterwards, this is useful
+- sealed
+    - sort of like final keyword in java
+    - when a class is sealed, it cannot be inherited
+    - if a method is sealed, it can't be overridden
+- static
+    - static applies to classes and class members which belong to the type itself rather than a specific object
+    - you wouldn't need to instantiate an object of the type to access a static method
+    - a static variable would be the same for all instances of that type - it is universally shared
+    - a static class can only have static members
+    - static classes are sealed, and therefore cannot be inherited
+- virtual
+    - basically saying that this method, property, indexer, or event CAN be overridden by a derived class
+- override
+    - required to extend or modify the abstract or virtual implementation of a property, indexer or event
+
+- worth reading about "what's the difference between method hiding and method overriding?"
+- private public protected internal - the access modifiers

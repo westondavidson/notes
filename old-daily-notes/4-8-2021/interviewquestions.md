@@ -1,0 +1,31 @@
+- abstract class vs interface
+    - abstract classes can have constructors
+    - abstract classes can have non abstract methods that don't need to be overwritten
+- dependency injection
+    - allows abstract implementation of class instead of concrete
+- index
+    - index is a value corres
+
+- polymorphism, method overloading and method overriding
+
+- abstraction, encapsulation, polymorphism, inheritance
+- abstraction is the act of hiding implementations behind a simplified interface or version of system to end user
+    - using interfaces is a way to apply abstraction in your code
+    - abstraction 
+- polymorphism - a class or object can be treated as another type within it's hierarchy
+- inheritance - a class can inherit from a hierarchy of parents - increases code reusability
+- encapsulation - the act of hiding data within a certain scope to prevent access from anything outside of it
+    - data wrapping and data hiding
+- sql
+    - difference between a primary key and a foreign key
+        a primary key is a unique identifier for a specific table, and a foreign key is a reference to the primary key of another table
+    - self join
+        - a self join is a join where a table is joined with the same table
+        - you could do a self join on a table that has customers and cities in order to group customers by cities
+    - sql sublanguages
+        - ddl, dml, tcl, dcl
+    - delete will delete data and keep a record, truncate will remove the data but not remove the table itself (and also deletes everything permanently), and drop drops a whole table
+    - table of employees, commissions in month they made
+        - give employee with third highest commission
+        - select * from employee order by commission desc limit 1 offset 2; *** remember this they will probably ask during panels, interviews, etc.
+    - panels REALLY dig in on first two weeks of training
