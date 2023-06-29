@@ -22,3 +22,8 @@
         - when you lose data, it's an explicit conversion
     - implicit conversion
         - when you're converting from a smaller to a larger data type, so nothing is being lost
+
+- strings
+    - store a number of characters
+    - basically a bunch of chars in a row :)
+    
